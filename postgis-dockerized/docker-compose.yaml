@@ -9,4 +9,5 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - ./data/postgis:/var/lib/postgresql/data
+      - /media/default/Extreme\ SSD/postgis_data:/var/lib/postgresql/data
+
